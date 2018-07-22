@@ -1,0 +1,51 @@
+/* common components */
+
+.not-found,
+.sorry {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 40px;
+}
+
+/* override Ant Design with the following syntax: .yourClass.antdClass */
+
+.error.ant-alert {
+    margin-bottom: 20px;
+}
+
+.form-button.ant-btn {
+    width: 100%;
+}
+
+/* disable scroll bounce */
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.app {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+/* nav and main content layout */
+
+.main {
+    margin-left: 200px !important;
+    background: #fafafa !important;
+    height: 100vh !important;
+}
