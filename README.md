@@ -2,7 +2,7 @@
   <img width="460" height="300" src="https://cdn-images-1.medium.com/max/800/1*grVJDnpHQsEC-q1MfewTVQ.png">
 </p>
 <p align="center">
-  <i>Moai created by Mr. Bozo on the Noun project.</i>
+  <i>Moai created by Mr. Bozo from thenounproject.com.</i>
 </p>
 
 
