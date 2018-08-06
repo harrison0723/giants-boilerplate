@@ -2,7 +2,7 @@
   <img width="460" height="300" src="https://cdn-images-1.medium.com/max/800/1*grVJDnpHQsEC-q1MfewTVQ.png">
 </p>
 <p align="center">
-  <i>Moai created by Mr. Bozo from thenounproject.com.</i>
+  <i></i>
 </p>
 
 
@@ -79,3 +79,6 @@ firebase login
 firebase deploy
 ```
 _Note: Use `/build` path instead of the default `/public` path when asked in step 3._
+
+## Credits
+Icon: Moai created by Mr. Bozo from thenounproject.com.
