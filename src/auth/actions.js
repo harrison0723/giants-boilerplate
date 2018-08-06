@@ -1,6 +1,3 @@
-import firebase from 'firebase/app'
-import 'firebase/auth'
-import 'firebase/firestore'
 import { SubmissionError } from 'redux-form'
 import history from '../common/tools/history'
 import { SystemError } from '../common/tools/error'
