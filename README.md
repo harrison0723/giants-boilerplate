@@ -81,4 +81,4 @@ firebase deploy
 _Note: Use `/build` path instead of the default `/public` path when asked in step 3._
 
 ## Credits
-Icon: Moai created by Mr. Bozo from thenounproject.com.
+_Icon: Moai created by Mr. Bozo from thenounproject.com._
