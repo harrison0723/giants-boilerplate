@@ -1,7 +1,11 @@
 /* common components */
 
-.not-found,
-.sorry {
+body, .main {
+    background: seashell;
+}
+
+.not-found-state,
+.error-state {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,6 +20,10 @@
     margin: 40px;
 }
 
+.logo {
+    height: 50px;
+}
+
 /* override Ant Design with the following syntax: .yourClass.antdClass */
 
 .error.ant-alert {
@@ -26,26 +34,10 @@
     width: 100%;
 }
 
-/* disable scroll bounce */
-
-html, body {
-    height: 100%;
-    overflow: hidden;
+.ant-popover-inner-content {
+    padding: 0px !important;
 }
 
-.app {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: auto;
-}
-
-/* nav and main content layout */
-
-.main {
-    margin-left: 200px !important;
-    background: #fafafa !important;
-    height: 100vh !important;
+.ant-dropdown-link {
+    cursor: pointer;
 }

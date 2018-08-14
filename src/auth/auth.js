@@ -22,7 +22,7 @@ export class Auth extends Component {
 
     render() {
         const { login, signup } = this.props
-
+        
         return (
             <div className="auth">
                 <Tabs cldefaultActiveKey="login" onChange={this.handleTabChange}>

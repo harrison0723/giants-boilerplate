@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    background: seashell;
+}
+
+.header .header-left-item {
+    width: 150px;
+    margin: 10px;
+    text-align: left;
+}
+
+.header .header-right-item {
+    width: 150px;
+    margin: 10px;
+    text-align: right;
+}

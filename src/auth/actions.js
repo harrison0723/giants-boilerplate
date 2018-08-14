@@ -23,7 +23,7 @@ export const signup = (creds) => {
             let userForFirestore = {
                 name: creds.name,
                 email: creds.email,
-                createdAt: firebase.firestore.FieldValue.serverTimestamp()
+                createdAt: getFirestore().FieldValue.serverTimestamp()
             }
             await getFirestore().collection('users').doc(userForFirebase.user.uid).set(userForFirestore)
             history.push('/create')
