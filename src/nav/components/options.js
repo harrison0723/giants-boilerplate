@@ -14,12 +14,12 @@ const Options = (props) => {
                     </Menu.Item>
                     <Menu.Divider />
                     <Menu.Item key="3">
-                        <div onClick={props.signout}>Logout</div>
+                        <a href onClick={props.signout}>Logout</a>
                     </Menu.Item>
                 </Menu>}>
-                <div className="ant-dropdown-link">
+                <a href className="ant-dropdown-link">
                     <span>{props.email} </span><Icon type="down" />
-                </div>
+                </a>
             </Dropdown>
         </div>
     )

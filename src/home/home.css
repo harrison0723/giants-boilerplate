@@ -2,6 +2,5 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    background: seashell;
+    padding: 30px;
 }
