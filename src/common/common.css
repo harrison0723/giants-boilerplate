@@ -1,7 +1,7 @@
 /* common components */
 
 .not-found,
-.sorry {
+.loading-error {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,6 +14,31 @@
     justify-content: center;
     height: 100%;
     margin: 40px;
+}
+
+.app .small-screen {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .app .big-screen {
+        display: none;
+    }
+    
+    .main {
+        margin-left: 0 !important;
+    }
+
+    .app .small-screen {
+        display: block;
+        position: fixed;
+        padding: 10px 0 0 10px;
+    }
+
+    .nav .sider {
+        max-width: 256px !important;
+        min-width: 256px !important;
+    }
 }
 
 /* override Ant Design with the following syntax: .yourClass.antdClass */
@@ -45,7 +70,7 @@ html, body {
 /* nav and main content layout */
 
 .main {
-    margin-left: 200px !important;
-    background: #fafafa !important;
-    height: 100vh !important;
+    margin-left: 200px ;
+    background: #fafafa ;
+    height: 100vh ;
 }

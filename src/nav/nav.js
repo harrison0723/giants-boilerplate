@@ -12,7 +12,7 @@ const { Sider } = Layout
 
 export class Nav extends Component {
     render() {
-        const { signout, location, auth, pages } = this.props
+        const { signout, location, auth, pages, close } = this.props
         const authenticated = auth.isLoaded && !auth.isEmpty
 
         return (
@@ -22,13 +22,13 @@ export class Nav extends Component {
                     {authenticated && <Options email={auth.email} signout={signout} />}
                     <Menu theme="light" mode="inline" selectedKeys={[location.pathname]}>
                         <Menu.Item key="/">
-                            <Link to='/'>
+                            <Link to='/' onClick={close}>
                                 <Icon type="home" />
                                 <span className="nav-text">Home</span>
                             </Link>
                         </Menu.Item>
                         <Menu.Item key="/create">
-                            <Link to='/create'>
+                            <Link to='/create' onClick={close}>
                                 <Icon type="plus-circle-o" />
                                 <span className="nav-text">Create</span>
                             </Link>
@@ -36,7 +36,7 @@ export class Nav extends Component {
                         {(!isLoaded(pages)) ? <Spinner /> : pages.map(page => {
                             return (
                                 <Menu.Item key={'/pages/' + page.id}>
-                                    <Link to={'/pages/' + page.id}>
+                                    <Link to={'/pages/' + page.id} onClick={close}>
                                         <Icon type="file-text" />
                                         <span className="nav-text">{page.title}</span>
                                     </Link>

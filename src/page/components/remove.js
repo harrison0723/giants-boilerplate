@@ -15,7 +15,7 @@ function showConfirm(remove) {
 
 const RemoveButton = ({ remove }) => {
     return (
-        <Button className="remove-button" onClick={() => showConfirm(remove)} type="danger">Delete</Button>
+        <Button className="remove-button" onClick={() => showConfirm(remove)} type="danger" block>Delete</Button>
     )
 }
 

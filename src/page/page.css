@@ -5,7 +5,11 @@
     padding: 30px;
 }
 
-.page .remove-button {
+.page form {
     width: 180px;
+}
+
+.page .remove-button {
+    max-width: 180px;
     margin: 10px 0;
 }
