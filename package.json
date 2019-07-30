@@ -5,7 +5,7 @@
     "antd": "^3.11.2",
     "firebase": "^5.1.0",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react-dom": "^16.4.2",
     "react-loadable": "^5.4.0",
     "react-redux": "^5.0.7",
     "react-redux-firebase": "^2.1.6",
