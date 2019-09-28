@@ -1,3 +1,5 @@
+## Archived
+Check out the more powerful [Giants Universal Boilerplate](https://github.com/harrison0723/giants-universal-boilerplate).
 <p align="center">
   <img width="460" height="300" src="https://cdn-images-1.medium.com/max/800/1*grVJDnpHQsEC-q1MfewTVQ.png">
 </p>
@@ -82,9 +84,3 @@ _Note: Use `/build` path instead of the default `/public` path when asked in ste
 
 ## Credits
 _The Moai icon was created by Mr. Bozo from thenounproject.com._
-
-## Mobile
-Complement your web app with mobile apps using [Giants Mobile Boilerplate](https://github.com/harrison0723/giants-mobile-boilerplate).
-
-## Alternative
-If you have a public app and need SEO, consider using [Giants Universal Boilerplate](https://github.com/harrison0723/giants-universal-boilerplate).
